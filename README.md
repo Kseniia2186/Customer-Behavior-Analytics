@@ -1,19 +1,19 @@
 # Customer Behavior Analytics
 
-## 📊 Overview
+##  Overview
 
 This project demonstrates how to analyze customer behavior using SQL and Excel. It simulates a small online store and tracks purchases, product categories, and regional performance. The goal is to extract insights from customer data and visualize them in a clear and interactive dashboard.
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **MySQL Workbench** – for database creation, data manipulation, and analytical queries  
 - **Microsoft Excel** – for building dashboards with pivot tables, slicers, and charts
 
 ---
 
-## 📁 Project Files
+##  Project Files
 
 - **SQL Script:**  
   Full code for:
@@ -35,7 +35,7 @@ This project demonstrates how to analyze customer behavior using SQL and Excel. 
 
 ---
 
-## 🧩 Database Structure
+##  Database Structure
 
 **Customers**  
 - `CustomerID` (INT, PK)  
@@ -57,19 +57,19 @@ This project demonstrates how to analyze customer behavior using SQL and Excel. 
 
 ---
 
-## 📈 Key Insights (from SQL queries)
+##  Key Insights (from SQL queries)
 
-- **💰 Total Revenue per Customer**
-- **📦 Orders per Region**
-- **⭐ Most Popular Products**
-- **📅 Monthly Sales Trends**
-- **📊 Sales by Product Category**
-- **👥 Unique Customers per Region**
-- **🔍 Customers Without Orders**
+- ** Total Revenue per Customer**
+- ** Orders per Region**
+- ** Most Popular Products**
+- ** Monthly Sales Trends**
+- ** Sales by Product Category**
+- ** Unique Customers per Region**
+- ** Customers Without Orders**
 
 ---
 
-## 📊 Excel Dashboard Features
+##  Excel Dashboard Features
 
 - **Key Metrics (KPI block):**
   - Total Revenue: `$768.58`
@@ -85,18 +85,10 @@ This project demonstrates how to analyze customer behavior using SQL and Excel. 
 
 ---
 
-## 💡 Purpose
+##  Purpose
 
 This beginner-level project is ideal for showcasing:
 - SQL querying skills
 - Data preparation and export
 - Dashboard building in Excel
 - Business analysis and insight generation
-
-Great for entry-level **Data Analyst** or **Database-related** roles.
-
----
-
-## 📷 Preview
-
-![Dashboard Preview](Customer_Behavior_Dashboard.png)
