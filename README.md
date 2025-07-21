@@ -1,53 +1,54 @@
-# Customer Behavior Analytics
+# 👥 Customer Behavior Analytics
 
-##  Overview
-
-This project demonstrates how to analyze customer behavior using SQL and Excel. It simulates a small online store and tracks purchases, product categories, and regional performance. The goal is to extract insights from customer data and visualize them in a clear and interactive dashboard.
-
----
-
-## Tools Used
-
-- **MySQL Workbench** – for database creation, data manipulation, and analytical queries  
-- **Microsoft Excel** – for building dashboards with pivot tables, slicers, and charts
+This project analyzes customer behavior using SQL and Excel.  
+It simulates an online store and explores sales patterns, product categories, and regional performance.  
+The goal is to extract insights from customer data and visualize them in a clean, interactive dashboard.
 
 ---
 
-##  Project Files
-
-- **SQL Script:**  
-  Full code for:
-  - Creating the database `OnlineStore2`
-  - Creating and populating tables `Customers`, `Products`, and `Orders`
-  - Running analytical queries (sales, regions, product popularity, etc.)
-
-- **Excel Workbook:**  
-  Includes:
-  - Raw data (from SQL): Customers, Products, Orders
-  - Pre-calculated fields: Total Amount, Monthly Revenue
-  - Pivot tables and charts for:
-    - Total sales by product category
-    - Monthly revenue
-  - Interactive dashboard with slicers and KPI metrics
-
-- **Dashboard Screenshot:**  
-  PNG image showing the final Excel dashboard
+## 🛠 Tools Used
+- **MySQL Workbench** – for database creation, data analysis, and manipulation
+- **Microsoft Excel** – for building dashboards using pivot tables, slicers, and charts
 
 ---
 
-##  Database Structure
+## 🗂 Project Files
 
-**Customers**  
+### 1. `Customer_Behavior_Full_Project.sql`
+- Creates database `OnlineStore2`
+- Builds tables: `Customers`, `Products`, `Orders`
+- Fills in sample data
+- Runs analytical queries for:
+  - Sales trends
+  - Product/category performance
+  - Regional metrics
+
+### 2. `Customer_Behavior_Analytics_Dashboard.xlsx`
+- Raw data from SQL: `Customers`, `Products`, `Orders`
+- Pre-calculated fields: Total Amount, Monthly Revenue
+- Pivot tables for:
+  - Total sales by category
+  - Monthly revenue
+- Dashboard: slicers + key metrics block (KPIs)
+
+### 3. `Customer_Behavior_Dashboard.png`
+- Final dashboard screenshot
+
+---
+
+## 🧱 Database Structure
+
+### Customers
 - `CustomerID` (INT, PK)  
 - `Name` (VARCHAR)  
 - `Region` (VARCHAR)
 
-**Products**  
+### Products
 - `ProductID` (INT, PK)  
 - `ProductName` (VARCHAR)  
 - `Category` (VARCHAR)
 
-**Orders**  
+### Orders
 - `OrderID` (INT, PK)  
 - `CustomerID` (FK)  
 - `ProductID` (FK)  
@@ -57,38 +58,48 @@ This project demonstrates how to analyze customer behavior using SQL and Excel. 
 
 ---
 
-##  Key Insights (from SQL queries)
-
-- ** Total Revenue per Customer**
-- ** Orders per Region**
-- ** Most Popular Products**
-- ** Monthly Sales Trends**
-- ** Sales by Product Category**
-- ** Unique Customers per Region**
-- ** Customers Without Orders**
-
----
-
-##  Excel Dashboard Features
-
-- **Key Metrics (KPI block):**
-  - Total Revenue: `$768.58`
-  - Total Orders: `15`
-  - Avg Order Value: `$51.24`
-  - Units Sold: `27`
-  - Unique Customers: `10`
-
-- **Visualizations:**
-  - Pie chart for **Total Sales by Product Category**
-  - Line chart for **Monthly Revenue**
-  - Interactive slicers for **Category**, **Month**, and **Region**
+## 🔍 Key Insights from SQL
+- Total Revenue per Customer  
+- Orders per Region  
+- Most Popular Products  
+- Monthly Sales Trends  
+- Sales by Product Category  
+- Unique Customers per Region  
+- Customers Without Orders
 
 ---
 
-##  Purpose
+## 📊 Excel Dashboard Features
 
-This beginner-level project is ideal for showcasing:
-- SQL querying skills
-- Data preparation and export
-- Dashboard building in Excel
-- Business analysis and insight generation
+### 🔢 KPI Metrics
+- Total Revenue: `$768.58`
+- Total Orders: `15`
+- Avg Order Value: `$51.24`
+- Units Sold: `27`
+- Unique Customers: `10`
+
+### 📈 Visualizations
+- Pie Chart → **Total Sales by Product Category**
+- Line Chart → **Monthly Revenue**
+- Slicers → by **Category**, **Month**, and **Region**
+
+---
+
+## 📸 Dashboard Preview
+
+![Customer Dashboard](Customer_Behavior_Dashboard.png)
+
+---
+
+## 🧠 Skills Practiced
+- Writing SQL queries with `JOIN`, `GROUP BY`, `SUM`, `COUNT`, `HAVING`
+- Preparing and exporting data from SQL to Excel
+- Building KPI dashboards with slicers and pivot charts
+- Data storytelling and insight generation
+
+---
+
+## 🎓 What I Learned
+
+This project helped me strengthen my SQL analytics skills and practice building Excel dashboards.  
+I also learned how to explore customer patterns and present key business metrics visually and clearly.
