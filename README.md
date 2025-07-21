@@ -87,7 +87,7 @@ The goal is to extract insights from customer data and visualize them in a clean
 
 ## 📸 Dashboard Preview
 
-![Customer Dashboard](Customer_Behavior_Dashboard.png)
+![Customer Dashboard](Customer_Behavior_Dashbord.png)
 
 ---
 
